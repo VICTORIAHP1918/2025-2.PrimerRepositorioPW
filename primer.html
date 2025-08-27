@@ -29,5 +29,54 @@
     </a>
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Universidad_de_Lima_logo.png">
     <img src="/imagenes/logo_ulima.png">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> 1</td>
+                <td> Billy</td>
+                <td> Grados</td>  
+            </tr>
+            <tr>
+                <td> 2</td>
+                <td> Cristiano</td>
+                <td> Ronaldo</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <form>
+        <!--Dato de entrada: caja de texto-->
+        <!--El value muestra texto en la caja-->
+        <input type="text" value="hola"/>   
+        <input type="checkbox"/>
+
+         <!--Ponerle el mismo nombre para una seleccion-->
+        <input type="radio" name="seleccion_letra"/>A 
+        <input type="radio"name="seleccion_letra"/>B
+        <input type="radio" name="seleccion_letra"/>C
+        <input type="button" value="OK"/>
+
+        <!--Submit envia los datos de todos los inputs-->
+        <!--NO USAR BOTON SUBMIT-->
+        <input type="submit" value="Cancel"/>
+        <!--Se recomienda usar de frente button y NO como input-->
+        <button type="button">Click me</button>
+
+        <!--Selector en caja-->
+        <select>
+            <option value="A">Lunes</option>
+            <option value="B">Martes</option>
+            <option value="C">Miercoles</option>
+        </select>
+    </form>
 </body>
 </html>
